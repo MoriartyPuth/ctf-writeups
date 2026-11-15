@@ -1,4 +1,4 @@
-# 🌍 OSINT
+# OSINT
 
 [← Back to all categories](../README.md)
 

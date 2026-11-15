@@ -23,7 +23,6 @@ CATEGORIES = [
     ("osint",     "OSINT",               "🌍", "Finding answers from public information: geolocation, ships, blockchains"),
     ("misc",      "Misc",                "🧩", "Everything else: jails, encodings, puzzles, protocol tricks"),
     ("boot2root", "Boot2Root",           "🖥️", "Full machine takeovers on VulnHub / TryHackMe: recon → foothold → root"),
-    ("labs",      "Labs",                "🧑‍🔬", "University (AUPP) security lab reports"),
 ]
 
 # folder -> (display name, kind, year)
@@ -40,7 +39,6 @@ EVENTS = {
     "crackmes-one":          ("crackmes.one", "Practice platform", ""),
     "vulnhub":               ("VulnHub", "Practice platform", ""),
     "tryhackme":             ("TryHackMe", "Practice platform", ""),
-    "aupp":                  ("AUPP coursework", "University labs", ""),
 }
 
 # good first reads, by path
@@ -122,7 +120,7 @@ def main():
             continue
         n = sum(len(v) for v in tree[cat].values())
         base = os.path.join(ROOT, cat)
-        out = [f"# {emoji} {title}", "",
+        out = [f"# {title}", "",
                f"[← Back to all categories](../README.md)", "",
                f"**{desc}.**", "",
                f"{n} writeups from {len(tree[cat])} events. Click a challenge name to read the writeup.", ""]

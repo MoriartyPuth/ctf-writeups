@@ -5,9 +5,9 @@
 **Step-by-step solutions to the CTF challenges and hacking labs I've solved,**<br>
 **sorted by category so you can find what you want quickly.**
 
-![Writeups](https://img.shields.io/badge/writeups-139-blue?style=for-the-badge)
-![Categories](https://img.shields.io/badge/categories-9-green?style=for-the-badge)
-![Events](https://img.shields.io/badge/events-13-orange?style=for-the-badge)
+![Writeups](https://img.shields.io/badge/writeups-134-blue?style=for-the-badge)
+![Categories](https://img.shields.io/badge/categories-8-green?style=for-the-badge)
+![Events](https://img.shields.io/badge/events-12-orange?style=for-the-badge)
 
 </div>
 
@@ -29,7 +29,6 @@ bug, why it works, and how to exploit it**, usually with a working solve script 
 | **[OSINT](osint/)** | Finding answers from public information: geolocation, ships, blockchains | 8 |
 | **[Misc](misc/)** | Everything else: jails, encodings, puzzles, protocol tricks | 8 |
 | **[Boot2Root](boot2root/)** | Full machine takeovers on VulnHub / TryHackMe: recon → foothold → root | 14 |
-| **[Labs](labs/)** | University (AUPP) security lab reports | 5 |
 
 ## New here? Start with these
 
@@ -56,7 +55,6 @@ Easier challenges that explain the basics of each category.
 | LYKN CTF 2026 | CTF | [Web](web/README.md#lykn-ctf-2026), [Pwn](pwn/README.md#lykn-ctf-2026), [Reverse Engineering](reverse/README.md#lykn-ctf-2026), [Cryptography](crypto/README.md#lykn-ctf-2026), [Forensics](forensics/README.md#lykn-ctf-2026), [OSINT](osint/README.md#lykn-ctf-2026), [Misc](misc/README.md#lykn-ctf-2026) | 36 |
 | DanteCTF 2023 | CTF | [Web](web/README.md#dantectf-2023), [Pwn](pwn/README.md#dantectf-2023), [Cryptography](crypto/README.md#dantectf-2023), [Misc](misc/README.md#dantectf-2023) | 4 |
 | BreizhCTF | CTF | [Cryptography](crypto/README.md#breizhctf) | 4 |
-| AUPP coursework | University labs | [Labs](labs/README.md#aupp-coursework) | 5 |
 | crackmes.one | Practice platform | [Reverse Engineering](reverse/README.md#crackmesone) | 8 |
 | CryptoHack | Practice platform | [Cryptography](crypto/README.md#cryptohack) | 7 |
 | TryHackMe | Practice platform | [Boot2Root](boot2root/README.md#tryhackme) | 1 |

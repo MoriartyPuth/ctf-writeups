@@ -1,4 +1,4 @@
-# 🔍 Reverse Engineering
+# Reverse Engineering
 
 [← Back to all categories](../README.md)
 

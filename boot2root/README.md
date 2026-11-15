@@ -1,4 +1,4 @@
-# 🖥️ Boot2Root
+# Boot2Root
 
 [← Back to all categories](../README.md)
 

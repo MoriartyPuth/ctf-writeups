@@ -1,4 +1,4 @@
-# 🌐 Web
+# Web
 
 [← Back to all categories](../README.md)
 

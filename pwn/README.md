@@ -1,4 +1,4 @@
-# 💥 Pwn
+# Pwn
 
 [← Back to all categories](../README.md)
 

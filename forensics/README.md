@@ -1,4 +1,4 @@
-# 🧪 Forensics
+# Forensics
 
 [← Back to all categories](../README.md)
 

@@ -133,8 +133,3 @@ boot2root/vulnhub/Sunset-Sunrise-Lab	Weborf directory traversal + credential reu
 boot2root/vulnhub/SuperMario-Lab	SSH brute force + OverlayFS kernel exploit
 boot2root/vulnhub/VulnOS1-Lab	distcc exploit + Webmin file disclosure
 boot2root/vulnhub/VulnOS2-Lab	OpenDocMan SQL injection + kernel exploit
-labs/aupp/Full-Chain-SQLi-Case-Study	End-to-end SQL injection to database takeover
-labs/aupp/Linux-Data-Analysis-Lab	Linux text processing on security datasets
-labs/aupp/MSFVenom-and-Trojan-Lab	MSFVenom payloads and defence evasion
-labs/aupp/Network-Security-Reconnaissance-Lab	Recon, password profiling, system monitoring
-labs/aupp/Server-Exploitation-Post-Exploitation-Lab	Server exploitation + post-exploitation forensics

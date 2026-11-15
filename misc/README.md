@@ -1,4 +1,4 @@
-# 🧩 Misc
+# Misc
 
 [← Back to all categories](../README.md)
 

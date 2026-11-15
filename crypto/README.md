@@ -1,4 +1,4 @@
-# 🔐 Cryptography
+# Cryptography
 
 [← Back to all categories](../README.md)
 
