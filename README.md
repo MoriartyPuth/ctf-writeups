@@ -1,7 +1,14 @@
 # CTF Writeups
 
-Every CTF and lab writeup I've done, grouped by category and then by event. Each entry has the
-reasoning, the bug, and a solve script (and, where useful, the original challenge files).
+My CTF and lab writeups, collected in one place and grouped by **category**, then by **event**.
+Each entry walks through the reasoning, the bug and the exploit, with a solve script and,
+where useful, the original challenge files.
+
+Events covered: BroncoCTF 2026, LYKN CTF 2026, D³CTF 2026, Cambodia Cyber Arena 2026,
+Crackmes.one RE CTF 2026, AUPP Certified Stalker CTF 2026, DanteCTF 2023, BreizhCTF, plus
+practice on CryptoHack, crackmes.one, VulnHub and TryHackMe.
+
+> This repo was previously `crypto-writeups`; the old URL redirects here.
 
 | Category | Writeups |
 |---|---|
@@ -357,4 +364,11 @@ reasoning, the bug, and a solve script (and, where useful, the original challeng
 
 ```
 <category>/<event>/<challenge>/   writeup README + solve scripts + challenge files
+scripts/gen_readme.py            regenerates this README from the folder tree
+```
+
+To add a writeup, drop it into `<category>/<event>/<challenge>/` and run:
+
+```bash
+python3 scripts/gen_readme.py .
 ```
