@@ -3,7 +3,6 @@
 > **Challenge:** Forbidden Archives  
 > **Category:** Web  
 > **Flag:** `bronco{y0u_d3f3@t3d_th3_h1gh_c0unc1l}`  
-> **Author's Hint:** *"don't overengineer and overthink exploit the simple bugs"*
 
 ---
 
