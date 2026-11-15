@@ -17,34 +17,34 @@ A **CTF** (Capture The Flag) is a hacking competition: each challenge hides a se
 *flag*, and you have to break something to get it. Each writeup here explains **how I found the
 bug, why it works, and how to exploit it**, usually with a working solve script you can run yourself.
 
-## 📂 Pick a category
+## Pick a category
 
-| | Category | What you'll find | Writeups |
-|:-:|---|---|:-:|
-| 🌐 | **[Web](web/)** | Bugs in websites and APIs: SQL/NoSQL injection, JWT, auth bypass, race conditions | 12 |
-| 💥 | **[Pwn](pwn/)** | Exploiting memory bugs in binaries: buffer overflows, format strings, heap, kernel | 17 |
-| 🔍 | **[Reverse Engineering](reverse/)** | Taking programs apart to find the flag: crackmes, obfuscation, VMs, keygens | 38 |
-| 🔐 | **[Cryptography](crypto/)** | Breaking weak or misused crypto: RSA, AES modes, PRNGs, lattices, classic ciphers | 28 |
-| 🧪 | **[Forensics](forensics/)** | Recovering hidden data from files, images, audio and packet captures | 9 |
-| 🌍 | **[OSINT](osint/)** | Finding answers from public information: geolocation, ships, blockchains | 8 |
-| 🧩 | **[Misc](misc/)** | Everything else: jails, encodings, puzzles, protocol tricks | 8 |
-| 🖥️ | **[Boot2Root](boot2root/)** | Full machine takeovers on VulnHub / TryHackMe: recon → foothold → root | 14 |
-| 🧑‍🔬 | **[Labs](labs/)** | University (AUPP) security lab reports | 5 |
+| Category | What you'll find | Writeups |
+|---|---|:-:|
+| **[Web](web/)** | Bugs in websites and APIs: SQL/NoSQL injection, JWT, auth bypass, race conditions | 12 |
+| **[Pwn](pwn/)** | Exploiting memory bugs in binaries: buffer overflows, format strings, heap, kernel | 17 |
+| **[Reverse Engineering](reverse/)** | Taking programs apart to find the flag: crackmes, obfuscation, VMs, keygens | 38 |
+| **[Cryptography](crypto/)** | Breaking weak or misused crypto: RSA, AES modes, PRNGs, lattices, classic ciphers | 28 |
+| **[Forensics](forensics/)** | Recovering hidden data from files, images, audio and packet captures | 9 |
+| **[OSINT](osint/)** | Finding answers from public information: geolocation, ships, blockchains | 8 |
+| **[Misc](misc/)** | Everything else: jails, encodings, puzzles, protocol tricks | 8 |
+| **[Boot2Root](boot2root/)** | Full machine takeovers on VulnHub / TryHackMe: recon → foothold → root | 14 |
+| **[Labs](labs/)** | University (AUPP) security lab reports | 5 |
 
-## 🌱 New here? Start with these
+## New here? Start with these
 
 Easier challenges that explain the basics of each category.
 
 | Challenge | Category | What it's about |
 |---|---|---|
-| [Pwntutorial](pwn/bronco-ctf-2026/pwntutorial/README.md) | 💥 Pwn | Beginner gets() buffer overflow |
-| [Discord Nitro](web/lykn-ctf-2026/Discord%20Nitro/README.md) | 🌐 Web | JWT alg:none forgery to become admin |
-| [Hash & Dash](crypto/lykn-ctf-2026/Hash%20%26%20Dash/README.md) | 🔐 Cryptography | Hash length-extension attack |
-| [Catgirl.crack](reverse/crackmes-one/Catgirl.crack-Lab/README.md) | 🔍 Reverse Engineering | .NET IL analysis, bypassing decoy passwords |
-| [Magic Ways](forensics/bronco-ctf-2026/Magic%20Ways/README.md) | 🧪 Forensics | Repairing a PNG signature and height |
-| [DC1](boot2root/vulnhub/DC1-Lab/README.md) | 🖥️ Boot2Root | Drupalgeddon2 (CVE-2018-7600) RCE |
+| [Pwntutorial](pwn/bronco-ctf-2026/pwntutorial/README.md) | Pwn | Beginner gets() buffer overflow |
+| [Discord Nitro](web/lykn-ctf-2026/Discord%20Nitro/README.md) | Web | JWT alg:none forgery to become admin |
+| [Hash & Dash](crypto/lykn-ctf-2026/Hash%20%26%20Dash/README.md) | Cryptography | Hash length-extension attack |
+| [Catgirl.crack](reverse/crackmes-one/Catgirl.crack-Lab/README.md) | Reverse Engineering | .NET IL analysis, bypassing decoy passwords |
+| [Magic Ways](forensics/bronco-ctf-2026/Magic%20Ways/README.md) | Forensics | Repairing a PNG signature and height |
+| [DC1](boot2root/vulnhub/DC1-Lab/README.md) | Boot2Root | Drupalgeddon2 (CVE-2018-7600) RCE |
 
-## 🏆 Events
+## Events
 
 | Event | Type | Categories | Writeups |
 |---|---|---|:-:|
@@ -62,7 +62,7 @@ Easier challenges that explain the basics of each category.
 | TryHackMe | Practice platform | [Boot2Root](boot2root/README.md#tryhackme) | 1 |
 | VulnHub | Practice platform | [Boot2Root](boot2root/README.md#vulnhub) | 13 |
 
-## 🗂️ How the repo is laid out
+## How the repo is laid out
 
 ```
 web/                         ← a category

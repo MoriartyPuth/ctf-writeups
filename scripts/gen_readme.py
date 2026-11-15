@@ -147,15 +147,15 @@ def main():
         "A **CTF** (Capture The Flag) is a hacking competition: each challenge hides a secret string, the",
         "*flag*, and you have to break something to get it. Each writeup here explains **how I found the",
         "bug, why it works, and how to exploit it**, usually with a working solve script you can run yourself.", "",
-        "## 📂 Pick a category", "",
-        "| | Category | What you'll find | Writeups |",
-        "|:-:|---|---|:-:|",
+        "## Pick a category", "",
+        "| Category | What you'll find | Writeups |",
+        "|---|---|:-:|",
     ]
     for cat, title, emoji, desc in CATEGORIES:
         if cat in tree:
             n = sum(len(v) for v in tree[cat].values())
-            out.append(f"| {emoji} | **[{title}]({cat}/)** | {desc} | {n} |")
-    out += ["", "## 🌱 New here? Start with these", "",
+            out.append(f"| **[{title}]({cat}/)** | {desc} | {n} |")
+    out += ["", "## New here? Start with these", "",
             "Easier challenges that explain the basics of each category.", "",
             "| Challenge | Category | What it's about |", "|---|---|---|"]
     titles = {c: (t, e) for c, t, e, _ in CATEGORIES}
@@ -163,20 +163,20 @@ def main():
         if os.path.exists(os.path.join(ROOT, rel)):
             cat = rel.split("/")[0]
             out.append(f"| [{pretty(rel.split('/')[-1])}]({link(entry(os.path.join(ROOT, rel)), ROOT)}) | "
-                       f"{titles[cat][1]} {titles[cat][0]} | {topics.get(rel, '')} |")
+                       f"{titles[cat][0]} | {topics.get(rel, '')} |")
 
     # events table
     ev_cats = {}
     for cat, evs in tree.items():
         for ev, items in evs.items():
             ev_cats.setdefault(ev, {})[cat] = len(items)
-    out += ["", "## 🏆 Events", "", "| Event | Type | Categories | Writeups |", "|---|---|---|:-:|"]
+    out += ["", "## Events", "", "| Event | Type | Categories | Writeups |", "|---|---|---|:-:|"]
     order = sorted(ev_cats, key=lambda e: (EVENTS.get(e, ("", "", ""))[1] != "CTF", -int(EVENTS.get(e, ("", "", "0"))[2] or 0), ev_name(e).lower()))
     for ev in order:
         cats = ", ".join(f"[{titles[c][0]}]({c}/README.md#{anchor(ev_name(ev))})" for c in ev_cats[ev])
         out.append(f"| {ev_name(ev)} | {EVENTS.get(ev, ('', '', ''))[1]} | {cats} | {sum(ev_cats[ev].values())} |")
 
-    out += ["", "## 🗂️ How the repo is laid out", "", "```",
+    out += ["", "## How the repo is laid out", "", "```",
             "web/                         ← a category",
             "└── lykn-ctf-2026/           ← the event it came from",
             "    └── Discord Nitro/       ← one challenge",
