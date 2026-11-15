@@ -72,16 +72,3 @@ web/                         ← a category
 ```
 
 Each category folder has its own README listing every challenge with a one-line summary.
-
-<details>
-<summary><b>Adding a new writeup</b></summary>
-
-1. Put it in `<category>/<event>/<challenge>/README.md` (plus any scripts or files).
-2. Add a one-line summary to `scripts/topics.tsv`.
-3. Run `python3 scripts/gen_readme.py` to rebuild every README.
-
-</details>
-
----
-
-<sub>Formerly `crypto-writeups`. Old links redirect here. For education only: only attack systems you have permission to test.</sub>
