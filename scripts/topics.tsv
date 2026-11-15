@@ -1,0 +1,140 @@
+# path<TAB>one-line technique shown in the READMEs
+web/aupp-stalker-ctf-2026/Static Web Basic	Hidden query-parameter key on an admin route
+web/bronco-ctf-2026/forbidden archive	SQLite injection to reveal a hidden (is_secret) record
+web/bronco-ctf-2026/lovely login	Leaked usernames in robots.txt + predictable password scheme
+web/bronco-ctf-2026/super secure server	Credentials leaked by a public /api/config endpoint
+web/bronco-ctf-2026/unblur me	Client-side trust: CSS-only blur, unauthenticated API, JS score
+web/cyber-arena-2026/indigonotes	NoSQL operator injection + mass assignment
+web/d3ctf-2026/ghost-zero.md	SQLite injection + sqlite_dbpage recovery of deleted pcaps
+web/d3ctf-2026/scope-drift.md	Double URL-encoding path bypass to plant a Service Worker
+web/dantectf-2023/dante-barber-shop.md	Predictable backup file names + UNION SQL injection
+web/lykn-ctf-2026/Discord Nitro	JWT alg:none forgery to become admin
+web/lykn-ctf-2026/Migrant	AES-CBC padding oracle via different HTTP status codes
+web/lykn-ctf-2026/waguri 1	WebSocket race condition
+pwn/bronco-ctf-2026/crab trap	Hand-assembled shellcode with no binary provided
+pwn/bronco-ctf-2026/negative bread	Integer/sign bug in a banking menu
+pwn/bronco-ctf-2026/proper pwning	gets() overflows to flip stack variables (multi-gate)
+pwn/bronco-ctf-2026/pwntutorial	Beginner gets() buffer overflow
+pwn/bronco-ctf-2026/worlds hardestest flag	Lua sandbox escape past a lexical word filter
+pwn/cyber-arena-2026/offtherecord	Format string arbitrary read
+pwn/cyber-arena-2026/speedrun	Stack overflow, PIE leak, ret2win
+pwn/d3ctf-2026/d3kbus.md	Linux kernel module: CRC bug gives a 4-byte arbitrary write
+pwn/d3ctf-2026/d3kheap2pro.md	Linux kernel heap: refcount double-free in an isolated cache
+pwn/dantectf-2023/sentence-to-hell.md	Format string leak (canary/libc) + GOT overwrite
+pwn/lykn-ctf-2026/Ez Pwn	Signed length check + byte truncation leads to overflow
+pwn/lykn-ctf-2026/Glyph Cache	Heap use-after-free, fake vtable, system()
+pwn/lykn-ctf-2026/Golfing	Crafting a tiny RISC-V ELF that passes the checks
+pwn/lykn-ctf-2026/H34p D3v1l	Heap off-by-one + stale pointer after delete
+pwn/lykn-ctf-2026/Shop	Negative quantity integer bug
+pwn/lykn-ctf-2026/ez pwn revenge	Signed length check + byte truncation, overflow to system()
+pwn/lykn-ctf-2026/return to lose	Classic stack overflow / ret2win, no canary
+reverse/bronco-ctf-2026/cat simulator	Stripped binary game with a decoy string
+reverse/bronco-ctf-2026/cpp unplugged	C++ with every token replaced by song titles
+reverse/bronco-ctf-2026/dog simulator	Obfuscated game state + rolling hashes
+reverse/bronco-ctf-2026/mirror mirror	Python script whose key is a hash of its own source
+reverse/crackmes-one/Bobs-Gambling-Lab	Integer handling flaws in a Windows PE
+reverse/crackmes-one/Catgirl.crack-Lab	.NET IL analysis, bypassing decoy passwords
+reverse/crackmes-one/CryMore-Lab	Spoofing a network killswitch response
+reverse/crackmes-one/Lack-Level-Series-Lab	12-level Windows x64 crackme series
+reverse/crackmes-one/MalwareTech-VM1-Lab	Custom 8-bit VM, pure static analysis
+reverse/crackmes-one/Roullete-Simulator-Lab	Java PRNG seed recovery + integer overflow
+reverse/crackmes-one/The-Alchemist-Lock-Lab	Packed Windows x64 binary, patching the check
+reverse/crackmes-one/Willy-Wonka-Chocolate-Factory-Lab	Anti-debug + 4-stage validation, keygen
+reverse/crackmes-re-ctf-2026/FLRSCRNSVR	Windows screensaver password transform
+reverse/crackmes-re-ctf-2026/Matryoshka_v2	Four nested layers of heavily obfuscated shellcode
+reverse/crackmes-re-ctf-2026/a_matter_of_time	Obfuscated crackme, AES key leaked via PDB path
+reverse/crackmes-re-ctf-2026/bitcalc	Self-modifying code built from input bits
+reverse/crackmes-re-ctf-2026/bubbly	Find the swap sequence that sorts an array
+reverse/crackmes-re-ctf-2026/connected	Simulated network of PCs/routers validating a message
+reverse/crackmes-re-ctf-2026/cryptPad	"Custom" cipher that reduces to plain RC4
+reverse/crackmes-re-ctf-2026/date_of_birth	Time-based date checks (strptime/mktime)
+reverse/crackmes-re-ctf-2026/httpd	Go backdoor triggered by a magic ICMP knock
+reverse/crackmes-re-ctf-2026/maze	Maze of chained assembly jump nodes
+reverse/crackmes-re-ctf-2026/wallpaper	15-puzzle validator, find the move sequence
+reverse/cyber-arena-2026/deathnote	Garble-obfuscated Go with a custom cipher (decoy trap)
+reverse/cyber-arena-2026/nevergonna	PyInstaller unpacking + XOR-chain cipher
+reverse/d3ctf-2026/d3gomoku.md	Windows kernel driver with a hidden second stage
+reverse/d3ctf-2026/d3llvm.md	Android OLLVM library + on-device ML model check
+reverse/d3ctf-2026/pacman.md	iOS bytecode VM built on Mach messages
+reverse/lykn-ctf-2026/control freak 1	Invert 3 rounds of bijective transforms
+reverse/lykn-ctf-2026/control freak 2	Control-flow flattening + anti-debug seed
+reverse/lykn-ctf-2026/control freak 3	Flattened bytecode VM driven by a SIGTRAP handler
+reverse/lykn-ctf-2026/cr4ck 1	Windows KeygenMe with anti-debug
+reverse/lykn-ctf-2026/cr4ck 2	Windows activator serial check
+reverse/lykn-ctf-2026/cr4ck 3	Bytecode VM behind a .text self-hash
+reverse/lykn-ctf-2026/i hate this app	Defeating SetWindowDisplayAffinity screenshot blocking
+reverse/lykn-ctf-2026/i hate this app revenge	Rust binary with default AES-CTR keys in .rdata
+reverse/lykn-ctf-2026/inferior student	Python matryoshka: ChaCha20 + LZMA layers, anti-debug
+reverse/lykn-ctf-2026/waguri 2	Names mapped to Brainfuck, recover the input
+crypto/breizhctf/authentification-1	AES-GCM with fixed key + IV: keystream reuse, cookie forgery
+crypto/breizhctf/authentification-2	Broken GCM: tag mask reuses the first data counter block
+crypto/breizhctf/do-you-have-good-eyes	Dilithium in the wrong ring (x^256 - 1)
+crypto/breizhctf/u-turn	Fully linear hash, invert with linear algebra
+crypto/bronco-ctf-2026/blorg multiplier	MD5 collision (HashClash fastcoll) to bypass a whitelist
+crypto/bronco-ctf-2026/consistently static pseudo random number generator	PRNG seeded with the flag behind a modular oracle
+crypto/bronco-ctf-2026/custom cipher	Polynomial "encryption": divide out the public key
+crypto/bronco-ctf-2026/emojibius	Polybius square disguised as emojis
+crypto/bronco-ctf-2026/garbage in flag out	Reused key, known-plaintext recovery
+crypto/bronco-ctf-2026/grandmas secret	ADFGVX cipher hidden in a letter
+crypto/bronco-ctf-2026/probably unbreakable	Restricted key alphabet, intersect candidates per byte
+crypto/bronco-ctf-2026/shifting away	Caesar with a growing shift
+crypto/cryptohack/bespoke-padding	RSA with known affine padding (Franklin-Reiter)
+crypto/cryptohack/blinding-light	Textbook RSA signing, blinding attack
+crypto/cryptohack/lets-decrypt	RSA signature "forgery" by choosing your own modulus
+crypto/cryptohack/lets-decrypt-again	Pohlig-Hellman discrete log under a chosen modulus
+crypto/cryptohack/null-or-never	RSA e=3 with null-byte padding (Coppersmith)
+crypto/cryptohack/rsa-backdoor-viability	Specially shaped RSA prime, factor it
+crypto/cryptohack/vote-for-pedro	RSA e=3 signature forgery
+crypto/cyber-arena-2026/trojanhorse	Custom protocol + RSA-CRT fault attack (Bellcore)
+crypto/d3ctf-2026/d3hferp.md	Multivariate quadratic system over F3, XL algorithm
+crypto/dantectf-2023/adventurers-knapsack.md	Merkle-Hellman knapsack broken with LLL
+crypto/lykn-ctf-2026/Hash & Dash	Hash length-extension attack
+crypto/lykn-ctf-2026/Noisy broadcast	Majority vote over noisy copies, then cube root
+crypto/lykn-ctf-2026/Postbox	AES-CBC padding oracle
+crypto/lykn-ctf-2026/Shortcut	RSA small d, Wiener's attack
+crypto/lykn-ctf-2026/twelve steps	Recover LCG parameters from outputs
+crypto/lykn-ctf-2026/whispering	NTRU-style key from a side-channel leak
+forensics/bronco-ctf-2026/Bundle 99	Reassembling a split ZIP from 250 parts
+forensics/bronco-ctf-2026/EX-BOOST	Bit-plane steganography across channels
+forensics/bronco-ctf-2026/LEts A go	Known-plaintext key recovery from a block cipher
+forensics/bronco-ctf-2026/Magic Ways	Repairing a PNG signature and height
+forensics/crackmes-re-ctf-2026/what_did_you_type	USB HID keystroke recovery from a pcap
+forensics/lykn-ctf-2026/Thanh Hoa 1	Audio spectrogram steganography
+forensics/lykn-ctf-2026/World Cup 1	PNG tEXt hints + red-channel LSB stego
+forensics/lykn-ctf-2026/World Cup 2	ZIP appended to an image
+forensics/lykn-ctf-2026/remedy	PNG chunk and metadata triage
+osint/bronco-ctf-2026/Crowed Trip	Geolocating road-trip photos
+osint/bronco-ctf-2026/Devil's Centroid	Geolocation + centroid of the Devil's Triangle
+osint/bronco-ctf-2026/digital crumb	Identifying a coffee shop from a photo
+osint/lykn-ctf-2026/Far Away	Campus map to mountain identification
+osint/lykn-ctf-2026/Follow The Layer	Tracing crypto transactions on-chain to an exchange
+osint/lykn-ctf-2026/Important Debris	Identifying aircraft debris from public reports
+osint/lykn-ctf-2026/Miss My School	Pivoting on a phone number to find a school
+osint/lykn-ctf-2026/Unnamed Merchant	Identifying a ship (IMO/MMSI/crew)
+misc/bronco-ctf-2026/No laughing matter	"A"/"H" text decoded as binary
+misc/bronco-ctf-2026/Spot The Difference	Finding inserted characters between two files
+misc/bronco-ctf-2026/WTF_ELECTRICALENGINEERING	Image stego + circuit logic puzzle
+misc/bronco-ctf-2026/Zip, Zip, Hooray!	Nested password-protected archives
+misc/bronco-ctf-2026/the key master	Key fragments hidden across a web page
+misc/d3ctf-2026/proxyport.md	Detecting frp ports through TCP teardown quirks
+misc/dantectf-2023/helljail.md	Python jail escape past a character blacklist
+misc/lykn-ctf-2026/Static	Flag semaphore decoding
+boot2root/tryhackme/Pickle-Rick-Lab	Web command injection + sudo misconfiguration
+boot2root/vulnhub/Bulldog1-Lab	Django hash leak + command injection
+boot2root/vulnhub/DC1-Lab	Drupalgeddon2 (CVE-2018-7600) RCE
+boot2root/vulnhub/Holynix1-Lab	SQL injection + local file inclusion
+boot2root/vulnhub/Jigsaw1-Lab	Port knocking, GIF stego, XXE
+boot2root/vulnhub/Katana-Lab	File upload to shell
+boot2root/vulnhub/N7-Lab	Web exploitation + database extraction
+boot2root/vulnhub/SkyDog-Lab	OSINT wordlists + writable cron script
+boot2root/vulnhub/StarWars1-Lab	Stego + Hydra brute force, privesc
+boot2root/vulnhub/Sunset-Dusk-Lab	Brute force + SQL webshell
+boot2root/vulnhub/Sunset-Sunrise-Lab	Weborf directory traversal + credential reuse
+boot2root/vulnhub/SuperMario-Lab	SSH brute force + OverlayFS kernel exploit
+boot2root/vulnhub/VulnOS1-Lab	distcc exploit + Webmin file disclosure
+boot2root/vulnhub/VulnOS2-Lab	OpenDocMan SQL injection + kernel exploit
+labs/aupp/Full-Chain-SQLi-Case-Study	End-to-end SQL injection to database takeover
+labs/aupp/Linux-Data-Analysis-Lab	Linux text processing on security datasets
+labs/aupp/MSFVenom-and-Trojan-Lab	MSFVenom payloads and defence evasion
+labs/aupp/Network-Security-Reconnaissance-Lab	Recon, password profiling, system monitoring
+labs/aupp/Server-Exploitation-Post-Exploitation-Lab	Server exploitation + post-exploitation forensics
